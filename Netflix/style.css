@@ -1,19 +1,83 @@
+.body{
+    overflow-y: hidden;
+    padding: 0;
+    margin: 0;
+   
+}
 .root{
-    background-image: url("image.jpg");
+    background-image:radial-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("image.jpg");
+    background-size: contain;
+    background-position: no-repeat;
+
+}
+.navbar{
+    display: flex;
+
 }
 .logo{
-    margin-left: 70px;
+    margin-left: 150px;
     width: 15%;
     margin-top: 30px;
 }
 .button{
-    background-color: darkred;
+    background-color: rgb(211, 3, 3);
     color: white;
     padding-left: 15px;
-    padding-top: 10px;
+    padding-top: 5px;
     padding-right: 15px;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
+    margin-top: 30px;
     font: 1em sans-serif;
-    margin-left: 80%;
+    margin-left: 55%;
+    border-radius: 10px;
 
 }
+.heading{
+    color: white;
+    font-size: 40px;
+    margin-top: 150px;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bolder;
+}
+.heading2{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-top: -20px;
+    font: bold;
+}
+.heading3{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin-top: -15px;
+    font: bold;
+}
+.navbar2{
+    display: flex;
+    margin-top: -20px;
+
+}
+.button2{
+    background-color:  rgb(211, 3, 3);
+    color: white;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 5px;
+    margin-left: 2px;
+    font-size: larger;
+    margin-bottom: 200px;
+
+}
+.email{
+    padding-right: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 25%;
+    background-color:rgba(142, 142, 141, .5);
+    color: rgb(251, 248, 248);
+    font-size: 20px;
+    margin-bottom: 200px;
+}
+
