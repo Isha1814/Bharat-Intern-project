@@ -1,23 +1,27 @@
 .body{
     overflow-y: hidden;
     padding: 0;
-    margin: 0;
-   
+    margin: 0;   
 }
 .root{
     background-image:radial-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("image.jpg");
     background-size: contain;
-    background-position: no-repeat;
-
+   background-position: no-repeat;
 }
 .navbar{
     display: flex;
-
 }
 .logo{
     margin-left: 150px;
     width: 15%;
     margin-top: 30px;
+}
+.lang{
+    background-color:rgba(121, 121, 121, 0.3);
+    color: white;
+    margin-top: 45px;
+    margin-left: 50%;
+    padding-left: 30PX;
 }
 .button{
     background-color: rgb(211, 3, 3);
@@ -26,9 +30,9 @@
     padding-top: 5px;
     padding-right: 15px;
     padding-bottom: 5px;
-    margin-top: 30px;
+    margin-top: 45px;
     font: 1em sans-serif;
-    margin-left: 55%;
+    margin-left: 2%;
     border-radius: 10px;
 
 }
@@ -65,7 +69,7 @@
     padding-right: 30px;
     padding-left: 30px;
     border-radius: 5px;
-    margin-left: 2px;
+    margin-left: 5px;
     font-size: larger;
     margin-bottom: 200px;
 
@@ -75,7 +79,7 @@
     padding-top: 20px;
     padding-bottom: 20px;
     margin-left: 25%;
-    background-color:rgba(142, 142, 141, .5);
+    background-color:rgba(121, 121, 121, 0.3);
     color: rgb(251, 248, 248);
     font-size: 20px;
     margin-bottom: 200px;
